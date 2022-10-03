@@ -60,7 +60,7 @@ const SignUpForm = () => {
     };
 
     return (
-        <div>
+        <div className="sign-up-container">
             <h2>Don't have an Account</h2>
             <span>Sign up with Email and Password</span>
             <form onSubmit={handleSubmit}>
